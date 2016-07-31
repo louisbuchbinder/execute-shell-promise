@@ -1,6 +1,6 @@
 {
   "name": "execute-shell-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Execute a sub-process command. Resolve the stdin in a promise.",
   "main": "execute-shell-promise.js",
   "scripts": {
