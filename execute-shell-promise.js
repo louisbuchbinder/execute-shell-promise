@@ -1,6 +1,8 @@
 
+const childProcess = require('child_process');
+
 const execute = (script) => new Promise((resolve, reject) => {
-  require('child_process').exec(script, (error, stdout) => {
+  childProcess.exec(script, (error, stdout) => {
     if (error) { reject(error); }
     else { resolve(stdout); }
   });
