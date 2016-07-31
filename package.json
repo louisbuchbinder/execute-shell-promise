@@ -4,7 +4,7 @@
   "description": "Execute a sub-process command. Resolve the stdin in a promise.",
   "main": "execute-shell-promise.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha spec.js"
   },
   "keywords": [
     "exectue",
